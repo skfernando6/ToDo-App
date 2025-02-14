@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#AB9FBA9A"
+    android:rotation="0"
     tools:context=".fragments.HomeFragment">
 
     <ImageView
@@ -27,7 +28,6 @@
         android:src="@drawable/ic_baseline_add_"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/imageView2"
@@ -63,6 +63,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/addTaskBtn" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
